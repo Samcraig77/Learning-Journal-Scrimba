@@ -1,3 +1,66 @@
-img {
-    width: 100px;
+:root {
+    --background-color: #ffffff;
+    --main-text-color: #151515;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    background-color: var(--background-color);
+    color: var(--main-text-color);
+    font-family: sans-serif, Arial, Helvetica;
+}
+
+
+
+header {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    font-size: 1.6em;
+    margin: 0 1.6em;
+
+    .nav {
+        display: flex;
+        margin: 0 0 0 auto;
+        
+        .mobile-nav {
+
+            .hamburger {
+                border: none;
+                background-color: inherit;
+                cursor: pointer;
+                font-weight: 900;
+                
+                &:hover, &:active{
+                    color: blue;
+                    transform: scale(1.2);
+                    rotate: 90deg;
+                    transition: .5s ease-in-out;
+                }
+            }
+        
+        }
+
+        .desktop-nav{
+            display: none;
+        }
+    }
+}
+
+main {
+    .hero-section {
+        margin: 1.6em;
+        img {
+            height: 300px;
+            border-radius: 50%;
+        }
+    }
 }
