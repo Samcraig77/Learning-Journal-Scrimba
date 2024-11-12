@@ -1,6 +1,7 @@
 :root {
     --background-color: #ffffff;
     --main-text-color: #151515;
+    --hero-background: #15300dc7;
 }
 
 *, *::before, *::after {
@@ -16,6 +17,7 @@ body {
     background-color: var(--background-color);
     color: var(--main-text-color);
     font-family: sans-serif, Arial, Helvetica;
+    min-width: 300px;
 }
 
 
@@ -24,13 +26,13 @@ header {
     display: flex;
     align-items: center;
     position: sticky;
-    font-size: 1.6em;
+    font-size: 1em;
     margin: 0 1.6em;
 
-    .nav {
+        .nav {
         display: flex;
         margin: 0 0 0 auto;
-        
+
         .mobile-nav {
 
             .hamburger {
@@ -56,11 +58,23 @@ header {
 }
 
 main {
+    padding: 1.6em;
+
     .hero-section {
-        margin: 1.6em;
-        img {
-            height: 300px;
-            border-radius: 50%;
+        margin: 0 auto;
+        
+        .img-container {
+        background-color: var(--hero-background);
+        
+            img {
+                height: 200px;
+                border-radius: 50%;
+            }
         }
+    }
+
+    .welcome-para {
+        font-size: 1.4em;
+        text-align: justify;
     }
 }

@@ -10,7 +10,7 @@
 
 <body>
     <header>
-        <h2 class="header-logo">My learning journal</h2>
+        <h1 class="header-logo">My learning journal</h1>
         
         <nav class="nav">
             <div class="mobile-nav">
@@ -25,13 +25,30 @@
     </header>
 
     <main>
-        <article>
-            <section class="hero-section">
-                <div class="img-container">
-                    <img src="/images/20240831_114457.jpg">
-                </div>
-            </section>
-        </article>
+        <section class="hero-section">
+            <div class="img-container">
+                <img src="/images/20240831_114457.jpg">
+            </div>
+                
+            <h2 class="intro">
+                Welcome to my learning journal!
+            </h2>
+
+            <p class="welcome-para">
+                This journal is being written to document my path from being a grocery worker with only a highschool diploma to a hireable candidate for 
+                web development! Learning is a joy and challenges and pushing myself keeps things interesting!
+            </p>
+        </section>
+        
+        <section class="blog-articles" id="blog-articles">
+            <h2>Recent Entries</h2>
+        </section>
+        <div>
+            <!-- render blog posts here -->
+        </div>
+
+        <footer class="footer" id="footer"></footer>
     </main>
+    <script  src="./scripts/home.js" type="module"></script>
 </body>
 </html>
