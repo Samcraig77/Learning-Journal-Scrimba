@@ -2,6 +2,7 @@
     --background-color: #ffffff;
     --main-text-color: #151515;
     --hero-background: #15300dc7;
+    --link-color: blue;
 }
 
 *, *::before, *::after {
@@ -76,5 +77,30 @@ main {
     .welcome-para {
         font-size: 1.4em;
         text-align: justify;
+    }
+    
+    .section-heading {
+        margin: 2em 0;
+        font-size: 2.5em;
+        text-align: center;
+    }
+
+    .blog-articles {
+
+        .article-title {
+            font-size: 2rem;
+        }
+
+        .article-content {
+            font-size: 1.5em;
+        }
+    }
+
+    .more-btn {
+        border: none;
+        text-decoration: underline;
+        color: var(--link-color);
+        background-color: inherit;
+        cursor: pointer;
     }
 }
