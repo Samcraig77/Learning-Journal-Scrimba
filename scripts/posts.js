@@ -7,7 +7,12 @@ export const postsArray = [
     },
     {
         title : 'Waymond\'s\ EEAAO Speech, Cinema that Makes Me Cry',
-        content : "I just talked to her<br> You think im weak don't you. all of those years ago when we first fell in love you're father would say I was too sweet for my own good... maybe he was right<br> Please can we just stop fighting?<br> You tell me it's a cruel world. and we're all just running around in circles... I know that. I've been on this earth just as many days as you. <br> I know you're all fighting because you're scared and confused. Im confused too. all day, I don't know what the heck is going on but somehow all of this feels like it's my fault.<br> When I chose to see the good side of things, I'm not being naive. It is strategic and necessary. It's how I've learned to survive through everything.<br> I don't know, the only thing I do know.. Is that we have to be kind, please be kind... Especially when we don't know what's going on. <br> I know you see yourself as a fighter. Well, I see myself as one too... This is how I fight.",
+        content : "You think im weak don't you. all of those years ago when we first fell in love you're father would say I was too sweet for my own good... maybe he was right. You tell me it's a cruel world, and we're all just running around in circles... I know that. I've been on this earth just as many days as you. When I chose to see the good side of things, I'm not being naive. It is strategic and necessary. It's how I've learned to survive through everything. I know you see yourself as a fighter. Well, I see myself as one too... This is how I fight. And so, even though you've broke my heart again... I'd just like to say, at another time, in another life I would have loved to just do laundry and taxes with you.",
+        uuid: crypto.randomUUID()
+    },
+    {
+        title : 'Waymond\'s\ EEAAO Speech, Cinema that Makes Me Cry',
+        content : "You think im weak don't you. all of those years ago when we first fell in love you're father would say I was too sweet for my own good... maybe he was right. You tell me it's a cruel world, and we're all just running around in circles... I know that. I've been on this earth just as many days as you. When I chose to see the good side of things, I'm not being naive. It is strategic and necessary. It's how I've learned to survive through everything. I know you see yourself as a fighter. Well, I see myself as one too... This is how I fight. And so, even though you've broke my heart again... I'd just like to say, at another time, in another life I would have loved to just do laundry and taxes with you.",
         uuid: crypto.randomUUID()
     }
 
